@@ -6,6 +6,9 @@ function calculateRoute(platform, waypoint0, waypoint1) {
       mode: 'fastest;scooter;traffic:enabled',
       departure: 'now'};
 
+
+  // Modificacion : 
+  
   router.calculateRoute(parameters,
     function (result) {
       datos = JSON.stringify(result)
